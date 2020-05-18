@@ -1,0 +1,44 @@
+Requirements.txt
+
+Python Version: 2.7
+---------------------
+
+Anaconda 2
+-----------------
+https://pypi.org/project/opencv-contrib-python/3.3.0.9/
+
+Pip
+--------------
+Conda install pip
+
+
+###### First Step ######
+Anaconda install
+-----------------
+https://anaconda.org/menpo/opencv3
+Version: opencv3-3.1.0
+-------------------------------
+######################################################
+
+###### Second Step #######
+pip install opencv-contrib-python==3.3.0 
+https://pypi.org/project/opencv-contrib-python/3.3.0.9/
+
+###########################################################
+
+IMPORTANT NOTE
+---------------------
+FFMPEG
+MacOS and Linux wheels have currently some limitations:
+
+video related functionality is not supported (not compiled with FFmpeg)
+for example cv2.imshow() will not work (not compiled with GTK+ 2.x or Carbon support)
+
+
+Google Cloud Vision
+------------------------
+pip install google-cloud-vision
+
+
+-------------------
+pip install imutils
